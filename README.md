@@ -1,104 +1,47 @@
-# Bingo By Themefisher
+# Astro Starter Kit: Minimal
 
-BINGO is a powerful Bootstrap Business Template from the Themefisher team. By using this theme, it will be possible for you to make your startup/business website and so on.
-
-<!-- demo -->
-## Example Site
-
-| [![](screenshots/homepage.png)](https://demo.themefisher.com/themefisher/bingo/) | [![](screenshots/about.png)](https://demo.themefisher.com/themefisher/bingo/about.html) | [![](screenshots/service.png)](https://demo.themefisher.com/themefisher/bingo/service.html) |
-|:---:|:---:|:---:|
-| **Homepage 1**  | **About**  | **Service**  |
-| [![](screenshots/portfolio.png)](https://demo.themefisher.com/themefisher/bingo/portfolio.html) | [![](screenshots/contact.png)](https://demo.themefisher.com/themefisher/bingo/contact.html) | [![](screenshots/404.png)](https://demo.themefisher.com/themefisher/bingo/404.html) |
-| **Portfolio** | **Contact** | **404** |
-
-👉🏻[View Live Preview](https://demo.themefisher.com/themefisher/bingo/)
-
-<!-- download -->
-## Download And installation
-
-Download this template from [Github](https://github.com/themefisher/bingo/archive/main.zip)
-
-<!-- installation -->
-### Basic Usages
-
-After downloading the template, you can simply edit the HTML and CSS files from the `theme` folder. To preview the changes you make to the code, you can open the index.html file in your web browser.
-
-### Advanced Usage
-
-For advanced usage, you have some prerequisites to install. Then you can run it on your localhost. You can view the package.json file to see which scripts are included.
-
-#### Install prerequisites (once for a machine)
-
-* **Node Installation:** [Install node js](https://nodejs.org/en/download/)
-* **Gulp Installation:** Install gulp globally from your terminal
-
-```
-npm install --global gulp-cli
+```sh
+npm create astro@latest -- --template minimal
 ```
 
-Or visit the original [Gulp docs](https://gulpjs.com/docs/en/getting-started/quick-start)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
 
-#### Local setup
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-After successfully installing those dependencies, open this theme with any IDE [[VS Code](https://code.visualstudio.com/) recommended], and then open the internal terminal of IDM [vs code shortcut <code>ctrl/cmd+\`</code>]
+## 🚀 Project Structure
 
-* Install dependencies
+Inside of your Astro project, you'll see the following folders and files:
 
-```
-npm install
-```
-
-* Run locally
-
-```
-npm run dev
-```
-
-After that, it will open up a preview of the template in your default browser, watch for changes to source files, and live reload the browser when changes are saved.
-
-#### Production Build
-
-After finishing all the customization, you can create a production build by running this command.
-
-```
-npm run build
+```text
+/
+├── public/
+├── src/
+│   └── pages/
+│       └── index.astro
+└── package.json
 ```
 
-Now you get a `theme` folder that has all the changes you have made. you can use this folder as your main theme.
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-👉🏻 [visit documentation](https://docs.themefisher.com/bingo/)
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-<!-- reporting issue -->
-## Reporting Issues
+Any static assets, like images, can be placed in the `public/` directory.
 
-We use GitHub Issues as the official bug tracker for the Meghna Template. Please Search [existing issues](https://github.com/themefisher/bingo/issues). Someone may have already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/bingo/issues).
+## 🧞 Commands
 
-<!-- support -->
-## Technical Support or Questions (Paid)
+All commands are run from the root of the project, from a terminal:
 
-If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-<!-- licence -->
-## License
+## 👀 Want to learn more?
 
-Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
-
-**Code License:** Released under the [MIT](https://github.com/themefisher/bingo/blob/main/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
-
-<!-- resources -->
-## Resources
-
-Some third-party plugins that we used to build this template. Please check their license.
-
-* **Bootstrap v4.5**: <https://getbootstrap.com/docs/4.5/getting-started/introduction/>
-* **Jquery v3.5.1**: <https://jquery.com/download/>
-* **Google Fonts**: <http://fonts.google.com/>
-* **Animate CSS**: <https://animate.style/>
-* **Lightbox2**: <https://lokeshdhakar.com/projects/lightbox2/>
-* **Filterizr**: <https://yiotis.net/filterizr/>
-* **jQuery Parallax**: <https://ianlunn.co.uk/plugins/jquery-parallax/>
-* **Slick**: <https://kenwheeler.github.io/slick/>
-* **Smooth Scroll**: <https://github.com/cferdinandi/smooth-scroll/>
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
